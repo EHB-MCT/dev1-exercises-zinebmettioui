@@ -28,7 +28,11 @@ function drawLine() {
    context.lineWidth = 5;
    context.strokeStyle = 'Black';
    context.beginPath();
-   context.rect(50,50,150,150);
+   context.lineTo(50,50);
+   context.lineTo(50,200)
+   context.lineTo(200,200)
+   context.lineTo(200,50)
+   context.lineTo(50,50)
    context.stroke();
 
 
