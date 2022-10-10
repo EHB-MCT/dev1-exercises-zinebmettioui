@@ -23,15 +23,13 @@ function drawLine() {
    context.moveTo(50,200)
    context.lineTo(200,50)
    context.stroke();
-   
+
    context.beginPath();
    context.lineWidth = 5;
    context.strokeStyle = 'Black';
    context.beginPath();
    context.rect(50,50,150,150);
    context.stroke();
-
-   
 
 
 }
