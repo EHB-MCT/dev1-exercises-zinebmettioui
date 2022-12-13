@@ -9,10 +9,10 @@ function draw() {
     context.strokeStyle = "white";
     context.fillStyle = "#3498DB";
     context.fillRect(50, 50, 300, 300);
-    drawSunLeft();
+    drawSunBeams();
 }
 
-function drawSunLeft() {
+function drawSunBeams() {
     let i = 0;
     while (i <=  35) {
         Utils.drawLine(50, 50, i * 10, 350);
