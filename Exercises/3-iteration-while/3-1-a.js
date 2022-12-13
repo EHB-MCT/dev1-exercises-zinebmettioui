@@ -13,13 +13,11 @@ function draw() {
 }
 
 function drawLines() {
-    let i = ;
-    while () {
-        //This drawLine function does not exist yet!
-        //Add it to the utils script:
-        //The function draws a line between 2 points
-        //And has the following parameters: x1, y1, x2, y2
-        Utils.drawLine(, , , );
-        i = ;
+    let i = 0;
+    while (i <= 10) {
+        Utils.drawLine(75, 75 + i * 25, 325, 75 + i * 25 );
+        i = i + 1;
     }
 }
+
+
