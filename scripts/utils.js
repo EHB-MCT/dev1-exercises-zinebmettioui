@@ -149,6 +149,7 @@ export function fillAndStrokeEllipse(x, y, w, h) {
     strokeCircle(x, y, w, h);
 }
 
+
 /**
  * Draws a line between 2 coordinates
  * @param {number} x1 the x coordinate of the start of the line
