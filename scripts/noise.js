@@ -139,3 +139,4 @@ function loadPerlin() {
 export function getSeed() {
   return seed;
 }
+
