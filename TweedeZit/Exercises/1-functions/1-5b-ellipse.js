@@ -18,6 +18,6 @@ function drawEllips() {
 
 	context.beginPath();
 	context.fillStyle = "yellow";
-	context.arc(200, 2
+	context.ellipse(200, 250, 100, 50, 0, 0, Math.PI / 1, true);
 	context.fill();
 }
