@@ -42,9 +42,14 @@ function drawStarryNight() {
 	context.moveTo(200, 150);
 	context.lineTo(250, 200);
 	context.lineTo(200, 250);
-	context.lineTo(250, 150);
 	context.lineTo(150, 200);
 	context.fill();
+
+    // 
+    context.beginPath();
+    context.arc(50, 50, 160, 0, Math.PI / 2);
+    context.arc(50, 50, 160, 0, Math.PI / 2);
+    context.fill();
 
 	// square
 	context.strokeStyle = "orange";
